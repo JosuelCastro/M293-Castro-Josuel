@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+<style>
+    body {
+       background-image: url('images/Ramaro-Simulator.png');
+    }
+</style>
+<body>
+    <h1 style="background-color: white">UMFRAGE VON NAHRUNG</h1>
+    <form action="sendsuccess.html" method="get" style="background-color: #AA64D7">
+    <h3 style="background-color: #D8B6ED">Welche Speisen mögen sie:</h3><br>
+        <input type="checkbox" name="food" value="Pasta" checked />Pasta<br/>
+        <input type="checkbox" name="food" value="Reis" checked />Reis<br/>
+        <input type="checkbox" name="food" value="Kartoffeln" />Kartoffeln<br/>
+    <br/>
+    <h3 style="background-color: #D8B6ED">Sind sie sicher?</h3> <br/>
+    <input type="radio" name="sicher" value="1" /> Ja
+    <input type="radio" name="sicher" value="0" /> Nein
+    <br><br>
+    <h3 style="background-color: #D8B6ED">Haben Sie irgendwelche Allergien?</h3><br>
+    <textarea name="beschreibung" placeholder="Schreiben sie hier einen Kommentar"></textarea><br>
+    
+    <br> 
+    <h3 style="background-color: #D8B6ED">Welches ist ihre Lieblingsrestaurant:</h3><br>
+    <input type="radio" name="food" value="McDonalds" />McDonalds<br />
+    <input type="radio" name="food" value="Olive Garden" checked />Olive Garden<br />
+    <input type="radio" name="food" value="Ich esse Daheim bei meiner Mutter" />Ich esse Daheim bei meiner Mutter <br><br><br>
+    <label for="name"><p>Name : </label><input id="name" type="text" name="name" placeholder="Martini Spritz" /></p>
+    <label for="name">E-Mail:</label><input id="name" type="text" name="name" placeholder="jamiehouse@me.com"/>
+    <button>send</button>
+    <h1>Vielen Dank für die Teilnahme dieser Umfrage!</h1>
+    </form>
+</body>
+</html>

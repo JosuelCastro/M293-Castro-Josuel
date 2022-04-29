@@ -1,0 +1,37 @@
+body{
+    background-color: #222E35;
+}
+
+p{
+    float: left;
+    padding-right:
+}
+
+.column {
+    float: left;
+    width: 37.5%;
+  }
+
+.columnchat {
+    float: left;
+    width: 42%;
+    border-left: 1.5px solid #2F3B43;
+    height: 100em;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .navbarpic {
+      margin-left: 2%;
+    width: 13%;
+    border-radius: 50%;
+  }
+  .navbarpicchat { 
+    margin-left: 2%;
+  width: 13%;
+  border-radius: 50%;
+}

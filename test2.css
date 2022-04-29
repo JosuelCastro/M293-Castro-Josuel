@@ -1,0 +1,16 @@
+body{
+    margin:50px;
+    padding:0;
+}
+header{
+    background-color: #D5E8D4;
+    padding:20px;
+}
+main{
+    background-color: #E1D5E7;
+    padding:20px;
+}
+footer{
+    background-color: #FFF2CC;
+    padding:20px;
+}

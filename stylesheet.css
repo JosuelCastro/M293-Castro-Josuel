@@ -9,15 +9,15 @@ h1 {
     padding: 20px;
     border-width: 20px;
     border-style: solid;
-    border-color: purple;
+    border-color: #AE64D7;
     margin: 20px;
-    background-color: violet;
+    background-color: #9E0BEF;
 
 }
 p {
-    color: orange;
+    color: #D9B6ED;
     
-    background-color: ivory;
+    background-color: #FEFDFE;
     padding: 1em;
 }
 
